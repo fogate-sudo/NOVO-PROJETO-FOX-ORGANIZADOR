@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173b35">
+  <meta name="description" content="FOX ORGANIZADOR — sua vida em ordem, em um só lugar.">
+  <title>FOX ORGANIZADOR</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="FOX Organizador início">
+      <span class="brand-mark">F</span>
+      <span>FOX <small>ORGANIZADOR</small></span>
+    </a>
+    <button class="profile" aria-label="Perfil">FO</button>
+  </header>
+
+  <main class="shell">
+    <section class="welcome">
+      <div>
+        <p class="eyebrow" id="today-date">SEU DIA, DO SEU JEITO</p>
+        <h1>Olá! Que bom ter você aqui.</h1>
+        <p class="muted">Um passo de cada vez. Organize o que importa hoje.</p>
+      </div>
+      <div class="day-mark" aria-hidden="true">✦</div>
+    </section>
+
+    <section class="summary-grid" aria-label="Resumo do dia">
+      <article class="summary-card">
+        <span class="card-icon">☑</span><p>Minhas tarefas</p><strong>Organize seu dia</strong>
+        <span class="card-note">Planeje compromissos e prioridades</span>
+      </article>
+      <article class="summary-card">
+        <span class="card-icon">◷</span><p>Meu equilíbrio</p><strong>Cuide do seu ritmo</strong>
+        <span class="card-note">Pequenas pausas também importam</span>
+      </article>
+      <article class="summary-card">
+        <span class="card-icon">R$</span><p>Minhas finanças</p><strong>Tenha clareza</strong>
+        <span class="card-note">Acompanhe receitas e despesas</span>
+      </article>
+    </section>
+
+    <section class="section-heading">
+      <div><p class="eyebrow">SEU ESPAÇO</p><h2>O que você deseja organizar?</h2></div>
+      <span class="section-caption">6 áreas principais</span>
+    </section>
+
+    <section class="modules" id="modules">
+      <button class="module" data-module="Agenda e Rotina"><span class="module-icon">▦</span><span><b>Agenda e Rotina</b><small>Tarefas, horários e metas</small></span><i>›</i></button>
+      <button class="module" data-module="Controle de Gastos e Finanças"><span class="module-icon">R$</span><span><b>Gastos e Finanças</b><small>Receitas, despesas e orçamento</small></span><i>›</i></button>
+      <button class="module" data-module="Saúde, Exercícios e Alimentação"><span class="module-icon">♡</span><span><b>Saúde e Hábitos</b><small>Movimento, sono e alimentação</small></span><i>›</i></button>
+      <button class="module" data-module="Bem-estar Mental"><span class="module-icon">☼</span><span><b>Bem-estar</b><small>Pausas, respiração e tranquilidade</small></span><i>›</i></button>
+      <button class="module" data-module="Informação e Conhecimento"><span class="module-icon">▤</span><span><b>Informação e Conhecimento</b><small>Notícias, cultura e aprendizado</small></span><i>›</i></button>
+      <button class="module" data-module="Utilidades e Extras"><span class="module-icon">⌘</span><span><b>Utilidades e Extras</b><small>Notas, listas e realizações</small></span><i>›</i></button>
+    </section>
+
+    <section class="quote">
+      <span>✦</span><p>Organização não é fazer tudo. É dar atenção ao que importa.</p>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Navegação principal">
+    <a class="active" href="#"><span>⌂</span>Início</a>
+    <a href="#modules"><span>▦</span>Módulos</a>
+    <a href="#modules"><span>♡</span>Favoritos</a>
+    <a href="#modules"><span>⚙</span>Ajustes</a>
+  </nav>
+  <dialog id="module-dialog">
+    <button class="close" aria-label="Fechar">×</button>
+    <p class="eyebrow">FOX ORGANIZADOR</p>
+    <h2 id="dialog-title">Módulo</h2>
+    <p>Esta área faz parte da estrutura inicial. As funções serão desenvolvidas por etapas.</p>
+    <button class="primary close-action">Entendi</button>
+  </dialog>
+  <script src="app.js"></script>
+</body>
+</html>

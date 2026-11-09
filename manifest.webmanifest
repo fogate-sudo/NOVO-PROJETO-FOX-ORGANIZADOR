@@ -1,0 +1,10 @@
+{
+  "name": "FOX ORGANIZADOR",
+  "short_name": "FOX",
+  "description": "Sua vida em ordem, em um só lugar.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f8f5",
+  "theme_color": "#173b35",
+  "icons": [{"src":"favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]
+}

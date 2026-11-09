@@ -1,0 +1,11 @@
+FOX ORGANIZADOR — protótipo inicial PWA
+Este pacote contém a primeira estrutura visual responsiva:
+- tela inicial Resumo do Dia
+- seis áreas principais conforme o documento de planejamento
+- navegação adaptada a celular e computador
+- manifest e service worker para preparar instalação como PWA
+
+Importante: é um protótipo de interface. Ainda não possui cadastro, banco de dados,
+sincronização, notificações reais, pagamentos ou funcionalidades completas dos módulos.
+
+Próxima etapa: publicar em um projeto novo e independente e testar a tela em celular e computador.
